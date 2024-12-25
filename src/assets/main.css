@@ -1,17 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
-	background-color: #0a0a0a;
 	color: #fafafa;
+	background-color: #111111;
 }
 nav {
 	background-color: #111111;
-	border-bottom: rgb(112, 112, 112) solid 1px;
+	border-bottom: rgba(75, 75, 75, 0.548) solid 1px;
 }
 a {
-	color: #62c5f3;
-
 	text-decoration: none;
 }
 h1 {
