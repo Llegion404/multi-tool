@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import App from '../App.vue';
-import Home from '../views/Home.vue';
 import Maths from '../views/Maths.vue';
 
 const router = createRouter({
@@ -12,16 +11,9 @@ const router = createRouter({
 			component: App,
 			children: [
 				{
-					path: '/',
-					name: 'home',
-					component: Home,
-					children: [
-						{
-							path: '/math',
-							name: 'math',
-							component: Maths,
-						},
-					],
+					path: '/math',
+					name: 'math',
+					component: Maths,
 				},
 			],
 		},
